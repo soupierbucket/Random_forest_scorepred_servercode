@@ -10,7 +10,7 @@ import pickle
 
 
 # load model
-model = pickle.load(open('model.pkl','rb'))
+model =joblib.load(joblib_file)
 
 # app
 app = Flask(__name__)
