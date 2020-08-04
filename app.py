@@ -20,6 +20,9 @@ print('Outside predict')
 # routes
 @app.route('/', methods=['POST'])
 
+#i think we should do some data scaling to get better accuracy
+
+
 def predict():
     print('predict_start')
     # get data
